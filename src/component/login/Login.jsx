@@ -10,7 +10,7 @@ const Login = () => {
     const [email, setMail] = useState('')
     const [password, setPassword] = useState('')
   
-    const url = "http://localhost:5000/login"
+    const url = "https://shoestop-backend-2i9y.onrender.com/login"
  
     const changeMailHandler = (e) => {
         setMail(e.target.value)
