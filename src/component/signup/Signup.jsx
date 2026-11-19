@@ -11,7 +11,7 @@ const Signup = () => {
   const [email, setMail] = useState('')
   const [password, setPassword] = useState('')
 
-  const url = "http://localhost:5000/signup"
+  const url = "https://shoestop-backend-2i9y.onrender.com/signup"
 
   const changeNameHandler = (e) => {
       setName(e.target.value)
