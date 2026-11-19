@@ -46,7 +46,7 @@ const Fav = () => {
                 <p className="price text-dark">Rs:{li.price}</p>
 
                 <div className="Fbtns">
-                  <Button variant='danger'onClick={ ()=>{ removeFavItems() }} > Remove From Favoutie </Button>
+                  <Button variant='danger'onClick={ ()=>{ removeFavItems(li._id) }} > Remove From Favoutie </Button>
                 </div>
               </div>
 
